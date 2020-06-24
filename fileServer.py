@@ -3,7 +3,7 @@ import http.server, ssl, os
 # absolute path of pyServer.py
 thisScriptPath=os.path.dirname(os.path.abspath(__file__))+'/'
 
-# generated seld signed certificate usin openssl command
+# generate self signed certificate using openssl command
 def generate_selfsigned_cert():
     try:
         OpenSslCommand = 'openssl req -newkey rsa:4096 -x509 -sha256 -days 3650 -nodes -out '+thisScriptPath+'cert.pem -keyout '+thisScriptPath+'key.pem -subj "/C=IN/ST=Maharashtra/L=Satara/O=Wannabees/OU=KahiHiHa Department/CN=www.iamselfdepartment.com"'
@@ -24,7 +24,8 @@ def startServer(host,port):
                                 )
     print("File Server started at https://" + server_address[0]+":"+str(server_address[1]))
     httpd.serve_forever()
-        
+
+# entry point of script
 def main():
     try:
         generate_selfsigned_cert()
@@ -32,8 +33,8 @@ def main():
         startServer('localhost',8000)
     except KeyboardInterrupt:
         print("\nFile Server Stopped!")
-        
-# entry point of script
+
+# call to main function
 main()
 
 '''
