@@ -13,7 +13,7 @@
 <li>Run the python script :
     <br><code>python fileServer.py</code></li>
 </ol>
-<i>NOTE : you will see the script is stuck at "writing new private key to '....\https-file-server-python/key.pem'" ;<br>&nbsp;&nbsp;&nbsp;this means the server is successfully started you can visit your browser and open the corrosponding address e.g. https://localhost:8000</i>
+<i>NOTE : you will see the script is stuck at "writing new private key to '....\https-file-server-python/key.pem'" ;<br>this means the server is successfully started you can visit your browser and open the corrosponding address e.g. https://localhost:8000</i>
 
 # Linux/Unix System :
 <ol>
@@ -24,6 +24,7 @@
 <li>Run the python script :
     <br><code>python fileServer.py</code></li>
 </ol>
-
-
+<hr>
+<i>NOTE : To serve files from desired Directory, goto that directory and run the script from that directory ;<br>&nbsp;&nbsp;&nbsp; e.g. to run the script from "C:/"...goto C: and run the script by giving whole path of script</i>
+<hr>
 <h4>Hope this script is helpful for you :-)</h4>
