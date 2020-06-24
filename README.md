@@ -25,6 +25,6 @@
     <br><code>python fileServer.py</code></li>
 </ol>
 <hr>
-<i>NOTE : To serve files from desired Directory, goto that directory and run the script from that directory ;<br>&nbsp;&nbsp;&nbsp; e.g. to run the script from "C:/"...goto C: and run the script by giving whole path of script</i>
+<i>NOTE : To serve files from desired Directory, goto that directory and run the script from that directory ;<br> e.g. to run the script from "C:/"...goto C: and run the script by giving whole path of script</i>
 <hr>
 <h4>Hope this script is helpful for you :-)</h4>
