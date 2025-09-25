@@ -13,7 +13,6 @@
 <li>Run the python script :
     <br><code>python fileServer.py</code></li>
 </ol>
-<i>NOTE : you will see the script is stuck at "writing new private key to '....\https-file-server-python/key.pem'" ;<br>this means the server is successfully started you can visit your browser and open the corrosponding address e.g. https://localhost:8000</i>
 
 # Linux/Unix System :
 <ol>
