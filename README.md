@@ -1,6 +1,7 @@
 # https-file-server-python
 - To create local file server for development purpose
 - <b>(Python3 or higher version is manadatory to run this script)</b>
+- <b>('cryptography' with version higher than 3.5 is required; if not, install using this command `pip install --upgrade cryptography`)</b>
  
  # Windows System :
 <ol>
